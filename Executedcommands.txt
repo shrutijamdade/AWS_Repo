@@ -1,0 +1,158 @@
+Admin@DESKTOP-74GRHEA MINGW64 ~
+$ pwd
+/c/Users/Admin
+
+Admin@DESKTOP-74GRHEA MINGW64 ~
+$ cd /G/CDAC/GitSession
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ git clone https://github.com/shrutijamdade/demo.git
+Cloning into 'demo'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ ls
+CQueue.cpp  demo/
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ cd demo/
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ pwd
+/G/CDAC/GitSession/demo
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ ls
+CQueue.cpp  README.md
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git add -A
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git commit -m "This is First Code"
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'Admin@DESKTOP-74GRHEA.(none)')
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$  git config --global user.email "jamdadeshruti17@gmail.com"
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git config --global user.name "shrutijamdade"
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git commit -m "This is First Code"
+[master 3fd235c] This is First Code
+ 1 file changed, 123 insertions(+)
+ create mode 100644 CQueue.cpp
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git push
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 839 bytes | 279.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/shrutijamdade/demo.git
+   f278a8c..3fd235c  master -> master
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   CQueue.cpp
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git add -A
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git commit -m "One element and message added"
+[master 2582ee4] One element and message added
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/demo (master)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 374 bytes | 187.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/shrutijamdade/demo.git
+   3fd235c..2582ee4  master -> master
+
+
+
+DAY 2222
+
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ git clone https://github.com/nikamshubham/TechPrimers111.git
+Cloning into 'TechPrimers111'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (6/6), done.
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ ls
+demo/  TechPrimers111/
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession
+$ cd TechPrimers111/
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (master)
+$ pwd
+/G/CDAC/GitSession/TechPrimers111
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (master)
+$ ls
+README.md
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (master)
+$ git checkout shrutijamdade111
+Switched to a new branch 'shrutijamdade111'
+Branch 'shrutijamdade111' set up to track remote branch 'shrutijamdade111' from 'origin'.
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (shrutijamdade111)
+$ git pull
+Already up to date.
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (shrutijamdade111)
+$ ls
+README.md
+
+Admin@DESKTOP-74GRHEA MINGW64 /G/CDAC/GitSession/TechPrimers111 (shrutijamdade111)
+$ git checkout shrutijamdade111
+Already on 'shrutijamdade111'
+Your branch is up to date with 'origin/shrutijamdade111'.
+
+
